@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>My Dropshopping</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/heroic-features.css' %}" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Dropshopping</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Carrinho</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="col-md-12 text-center" style="margin-top:50px">
+        <h1>Venha conhecer nossas promoções</h1>
+      </div>
+
+      <!-- Page Features -->
+      <div class="row text-center" style="margin-top:50px">
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/perfume1.jpeg' %}" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Malbec Des. Colônia, 100ml.</h4>
+              <p class="card-text">Marco da perfumaria, Malbec é a primeira fragrância do mundo inspirada na sofisticada arte de fazer vinhos.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">R$ 159,00</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/perfume2.jpeg' %}" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Coffee Woman Seduction Des. Colônia, 100ml</h4>
+              <p class="card-text">Com tecnologia exclusiva, Coffee traz a infusão dos mais nobres cafés, despertando sensações apaixonantes.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">R$ 124,90</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/perfume3.jpeg' %}" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Nativa SPA Loção Hidratante Desodorante Corporal Ameixa Negra 400ml</h4>
+              <p class="card-text">Como símbolo de sensualidade e intensidade, a Nativa SPA Loção Hidratante Desodorante Corporal Ameixa Negra é um estímulo para a pele. É a união de hidratação profunda com um delicioso aroma floriental amadeirado..</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">R$ 54,90</a>
+            </div>
+          </div>
+        </div>   
+        
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/perfume4.jpeg' %}" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Malbec Gold Des. Colônia, 100ml</h4>
+              <p class="card-text">Malbec Gold combina o processo especial de Malbec com a tecnologia Goldsense, que desperta imaginações.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">R$ 159,00</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+
+  </body>
+
+</html>
